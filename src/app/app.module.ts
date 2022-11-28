@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 // ? Modules
 import { AppRoutingModule } from './app-routing.module';
@@ -25,10 +26,12 @@ const COMPONENTS = [
   RecipeItemComponent,
   ShoppingListComponent,
   ShoppingEditComponent,
+  NotFoundComponent,
+  RecipeBookComponent,
 ];
 
 @NgModule({
-  declarations: [...COMPONENTS, NotFoundComponent, RecipeBookComponent],
+  declarations: [...COMPONENTS],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
