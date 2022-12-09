@@ -16,6 +16,8 @@ import { ShoppingEditComponent } from './pages/shopping-list/shopping-edit/shopp
 import { ShoppingListComponent } from './pages/shopping-list/shopping-list.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { RecipeBookComponent } from './pages/recipe-book/recipe-book.component';
+import { DropdownDirective } from './components/directives/dropdown.directive';
+
 
 const COMPONENTS = [
   AppComponent,
@@ -28,6 +30,7 @@ const COMPONENTS = [
   ShoppingEditComponent,
   NotFoundComponent,
   RecipeBookComponent,
+  DropdownDirective
 ];
 
 @NgModule({
